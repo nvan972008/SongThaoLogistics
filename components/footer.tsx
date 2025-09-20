@@ -111,7 +111,7 @@ export function Footer() {
                 <div>
                   <p className="font-medium">Trụ sở chính</p>
                   <p className="text-sm text-muted-foreground">
-                    Ga Gáp Bát - số 264 Giải Phóng
+                    Ga Gáp Bát - số 364 Giải Phóng
                     <br />
                     P. Định Công, TP Hà Nội
                   </p>

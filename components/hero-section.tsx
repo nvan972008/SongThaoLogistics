@@ -16,7 +16,7 @@ export function HeroSection() {
             <div className="space-y-4">
               <h1 className="text-4xl lg:text-6xl font-bold text-balance leading-tight">
                 Kết nối Việt Nam qua
-                <span className="text-primary"> Vận tải Đường sắt</span>
+                <span className="text-primary"> Vận tải Đường sắt </span>
                 Đáng tin cậy
               </h1>
               <p className="text-xl text-muted-foreground text-pretty leading-relaxed">
