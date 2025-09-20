@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export', // xuất ra static site trong thư mục out/
   eslint: {
     ignoreDuringBuilds: true,
   },
@@ -9,6 +10,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  basePath: '/SongThaoLogistics',
+  assetPrefix: '/SongThaoLogistics/',
 }
 
 export default nextConfig
