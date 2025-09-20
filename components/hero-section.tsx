@@ -1,5 +1,8 @@
 import { Button } from "@/components/ui/button"
 import { ArrowRight, Shield, Clock, Award } from "lucide-react"
+import getConfig from 'next/config';
+
+const { publicRuntimeConfig } = getConfig();
 
 export function HeroSection() {
   return (
@@ -60,7 +63,7 @@ export function HeroSection() {
           <div className="relative">
             <div className="aspect-[4/3] rounded-2xl overflow-hidden bg-gradient-to-br from-primary/20 to-accent/20">
               <img
-                src="/modern-railway-freight-train-in-vietnam-landscape.jpg"
+                src={`${publicRuntimeConfig.basePath || ''}/modern-railway-freight-train-in-vietnam-landscape.jpg`}
                 alt="Tàu hàng đường sắt SÔNG THAO"
                 className="w-full h-full object-cover"
               />

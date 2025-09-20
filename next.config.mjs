@@ -12,6 +12,9 @@ const nextConfig = {
   },
   basePath: '/SongThaoLogistics',
   assetPrefix: '/SongThaoLogistics/',
+  publicRuntimeConfig: {
+    basePath: '/SongThaoLogistics',
+  }
 }
 
 export default nextConfig
