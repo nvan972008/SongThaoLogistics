@@ -35,7 +35,7 @@ export function Header() {
             <div className="hidden lg:flex items-center space-x-4 text-sm">
               <div className="flex items-center space-x-2">
                 <Phone className="w-4 h-4 text-primary" />
-                <span>0123 456 789</span>
+                <span>0986864824</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Mail className="w-4 h-4 text-primary" />

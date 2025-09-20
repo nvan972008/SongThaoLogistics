@@ -26,7 +26,7 @@ export function ContactSection() {
                   <CardTitle className="text-lg">Hotline</CardTitle>
                 </CardHeader>
                 <CardContent className="text-center">
-                  <p className="text-2xl font-bold text-primary mb-1">0123 456 789</p>
+                  <p className="text-2xl font-bold text-primary mb-1">0986864824</p>
                   <p className="text-sm text-muted-foreground">Hỗ trợ 24/7</p>
                 </CardContent>
               </Card>
@@ -55,8 +55,8 @@ export function ContactSection() {
                 </div>
               </CardHeader>
               <CardContent>
-                <p className="text-lg font-semibold mb-2">123 Đường Nguyễn Văn Cừ, Quận 5, TP.HCM</p>
-                <p className="text-muted-foreground mb-4">Tòa nhà SÔNG THAO Tower, Tầng 15-20</p>
+                <p className="text-lg font-semibold mb-2">Ga Gáp Bát - số 264 Giải Phóng P. Định Công, TP Hà Nội</p>
+                <p className="text-muted-foreground mb-4">Tòa nhà</p>
                 <div className="flex items-center space-x-2 text-sm text-muted-foreground">
                   <Clock className="w-4 h-4" />
                   <span>Thứ 2 - Thứ 6: 8:00 - 17:30 | Thứ 7: 8:00 - 12:00</span>

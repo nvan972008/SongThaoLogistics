@@ -111,16 +111,16 @@ export function Footer() {
                 <div>
                   <p className="font-medium">Trụ sở chính</p>
                   <p className="text-sm text-muted-foreground">
-                    123 Đường Nguyễn Văn Cừ
+                    Ga Gáp Bát - số 264 Giải Phóng
                     <br />
-                    Quận 5, TP.HCM
+                    P. Định Công, TP Hà Nội
                   </p>
                 </div>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="w-5 h-5 text-primary" />
                 <div>
-                  <p className="font-medium">0123 456 789</p>
+                  <p className="font-medium">0986.864.824</p>
                   <p className="text-sm text-muted-foreground">Hotline 24/7</p>
                 </div>
               </div>
