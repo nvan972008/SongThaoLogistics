@@ -10,8 +10,6 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: '/SongThaoLogistics',
-  assetPrefix: '/SongThaoLogistics/',
   publicRuntimeConfig: {
     basePath: '/SongThaoLogistics',
   }
