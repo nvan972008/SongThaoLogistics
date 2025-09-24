@@ -55,7 +55,7 @@ export function ContactSection() {
                 </div>
               </CardHeader>
               <CardContent>
-                <p className="text-lg font-semibold mb-2">Ga Gáp Bát - số 264 Giải Phóng P. Định Công, TP Hà Nội</p>
+                <p className="text-lg font-semibold mb-2">Ga Gáp Bát - số 364 Giải Phóng P. Định Công, TP Hà Nội</p>
                 <p className="text-muted-foreground mb-4">Tòa nhà</p>
                 <div className="flex items-center space-x-2 text-sm text-muted-foreground">
                   <Clock className="w-4 h-4" />
