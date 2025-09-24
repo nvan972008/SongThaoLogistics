@@ -11,7 +11,7 @@ const nextConfig = {
     unoptimized: true,
   },
   publicRuntimeConfig: {
-    basePath: '/SongThaoLogistics',
+    basePath: '',
   }
 }
 
