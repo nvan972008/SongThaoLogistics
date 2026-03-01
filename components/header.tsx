@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button"
 import { Phone, Mail } from "lucide-react"
+import Image from "next/image"
 
 export function Header() {
   return (
@@ -8,7 +9,13 @@ export function Header() {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center space-x-4">
             <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-lg">ST</span> {/* Updated logo initials */}
+              <Image
+                src="/icons/st-logo.jpg"
+                alt="Sông Thao Logistics logo"
+                width={40}
+                height={40}
+                className="rounded-lg object-cover"
+              />
             </div>
             <div>
               <h1 className="text-xl font-bold text-foreground">SÔNG THAO</h1> {/* Updated company name */}
